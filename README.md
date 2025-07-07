@@ -25,21 +25,23 @@ This project demonstrates how **machine learning and deep learning techniques** 
 
 Vehicle-CAN-IDS/
 │
-├── csv_files/ # Raw and processed CAN bus datasets
-├── dnn_tuning/ # DNN model tuning experiments
-├── dnn_tuning_v2/ # Updated DNN tuning experiments
-├── ipynb/ # Jupyter notebooks for attack simulation and model training
-├── models/ # Saved trained models
-├── docs/ # Project images, flowcharts, and documentation
-├── parsed_can_log.csv # Sample parsed CAN log data
-├── README.md # This readme file
+├── csv_files/           # Raw and processed CAN bus datasets
+├── dnn_tuning/          # DNN model tuning experiments
+├── dnn_tuning_v2/       # Updated DNN tuning experiments
+├── ipynb/               # Jupyter notebooks for attack simulation and model training
+├── models/              # Saved trained models
+├── docs/                # Project images, flowcharts, and documentation
+├── parsed_can_log.csv   # Sample parsed CAN log data
+├── README.md            # This readme file
+
 
 ---
 
 ## 🧠 Key Notebooks
 
 - `dos.ipynb` — DoS attack simulation and detection workflow.
-- `experiment1.ipynb` — Baseline machine learning experiments.
+- `experiment1.ipynb` — Baseline machine learning 1st experiment(Reseach papers approach).
+- `experiment2.ipynb` — Baseline machine learning 2nd experiment (windowing approach which is also the novelty of our project).
 - `fuzzy.ipynb`, `gear.ipynb`, `RPM.ipynb` — Additional CAN bus scenarios.
 - `cnn_tuning/`, `dnn_tuning/` — Deep learning model tuning and experiments.
 
@@ -52,10 +54,9 @@ Vehicle-CAN-IDS/
 - **Environment:** Jupyter Notebook for simulation, training, and experimentation
 
 ---
+## 🎥 Project Video Explanation
 
-Feel free to explore the notebooks and models to understand the detection workflows, experiment with new attack simulations, or extend the IDS capabilities.
+You can watch a detailed **video explanation** of the Vehicle CAN Network Intrusion Detection System project here:
 
----
-
-If you want, you can add a **project demo video or screenshots** inside the `docs/` folder for better visualization.
+[https://youtu.be/SFmveqE85Rk](https://youtu.be/SFmveqE85Rk)
 
